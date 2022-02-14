@@ -1,0 +1,38 @@
+/* o seletor * aplica as propriedades para todos os elementos   
+
+* {
+    border: 2px solid
+}
+*/
+
+/* seletor de descendência: todos os elementos da tag <a> que estão dentro da tag <li> */
+
+li a{
+    color: red;
+}
+
+/* seletor pai para filho: todos os elementos da tag <a> que são descendentes diretos da tag <li>  */
+
+li > a{
+    color: greenyellow;
+}
+
+/* seletor adjacente + : seleciona a tag <h4> que está logo depois da tag<h1> */
+h1 + h4 {
+    border: 4px dashed
+}
+
+/* seletor de atributo: selecionará todas as tags com o atributo especificado, no caso href="ovos" */
+
+a[href="ovos"] {
+    border: 2px solid orange;
+}
+
+
+/* PSEUDOCLASSES */
+
+/* nesse exempo nth-of-type aplicará no segundo item de toda tag <li> */
+
+li:nth-of-type(2) {
+    color: purple;
+}

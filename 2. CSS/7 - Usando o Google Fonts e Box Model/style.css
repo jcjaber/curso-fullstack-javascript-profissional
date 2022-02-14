@@ -1,0 +1,14 @@
+p {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 2;
+}
+
+h1 {
+    font-family: 'Geostar Fill';
+    margin: 40px auto 200px auto;
+    width: 25%;
+    border: 2px solid;
+    padding: 10px;
+}
